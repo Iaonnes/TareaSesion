@@ -1,0 +1,47 @@
+/*
+ * Creado por SharpDevelop.
+ * Usuario: Juan
+ * Fecha: 09/04/2014
+ * Hora: 10:07 a.m.
+ * 
+ * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
+ */
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace Sesión1
+{
+	/// <summary>
+	/// Description of Form1.
+	/// </summary>
+	public partial class Form1 : Form
+	{
+		public Form1()
+		{
+			//
+			// The InitializeComponent() call is required for Windows Forms designer support.
+			//
+			InitializeComponent();
+			
+			//
+			// TODO: Add constructor code after the InitializeComponent() call.
+			//
+		}
+		
+		void PictureBox1Click(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void Label1Click(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+	}
+}
